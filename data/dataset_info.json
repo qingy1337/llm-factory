@@ -162,6 +162,13 @@
       "response": "target"
     }
   },
+  "qwq-longcot": {
+      "hf_hub_url": "qingy2024/QwQ-LongCoT-500K-Cleaned",
+      "columns": {
+          "prompt": "prompt",
+          "response": "response"
+      }
+  },
   "wikiqa": {
     "hf_hub_url": "wiki_qa",
     "columns": {
