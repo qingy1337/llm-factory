@@ -162,8 +162,9 @@
       "response": "target"
     }
   },
-  "qwq-longcot": {
-      "hf_hub_url": "qingy2024/QwQ-LongCoT-500K-Cleaned",
+  "fineqwq-85k": {
+      "hf_hub_url": "qingy2024/FineQwQ-85k",
+      "split": "85k",
       "columns": {
           "prompt": "prompt",
           "response": "response"
