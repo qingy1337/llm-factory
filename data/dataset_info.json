@@ -170,6 +170,12 @@
           "response": "response"
       }
   },
+  "qwark-corpus": {
+      "hf_hub_url": "qingy2024/qwark-corpus",
+      "columns": {
+          "prompt": "text"
+      }
+  },
   "wikiqa": {
     "hf_hub_url": "wiki_qa",
     "columns": {
