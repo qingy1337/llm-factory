@@ -243,6 +243,20 @@
       "assistant_tag": "assistant"
     }
   },
+  "smoltalk-1M": {
+    "hf_hub_url": "HuggingFaceTB/smoltalk",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
   "agent_instruct": {
     "hf_hub_url": "THUDM/AgentInstruct",
     "ms_hub_url": "ZhipuAI/AgentInstruct",
