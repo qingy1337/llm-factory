@@ -28,6 +28,7 @@ command1 = [
     "--packing", "True",
     "--report_to", "none",
     "--output_dir", "checkpoint",
+    "--overwrite_output_dir", "True",
     "--pure_bf16", "True",
     "--plot_loss", "True",
     "--trust_remote_code", "True",
