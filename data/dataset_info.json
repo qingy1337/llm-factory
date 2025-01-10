@@ -245,6 +245,7 @@
   },
   "smoltalk-1M": {
     "hf_hub_url": "HuggingFaceTB/smoltalk",
+    "subset": "all",
     "formatting": "sharegpt",
     "columns": {
       "messages": "messages"
