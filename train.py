@@ -36,11 +36,11 @@ command1 = [
 ]
 
 # Command 2: python3 upload.py
-command2 = ["python3", "upload.py"]
+command2 = ["python", "upload.py"]
 
 # Run both commands
 process1 = subprocess.Popen(command1, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
-process2 = subprocess.Popen(command2, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+process2 = subprocess.Popen(command2, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, cwd="checkpoint")
 
 # Capture and display the output of the first command
 for line in iter(process1.stdout.readline, ""):
