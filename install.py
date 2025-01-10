@@ -29,4 +29,4 @@ indf = [5, 20, 12, 9, 22, 26, 27, 4, 24, 29, 33, 31, 32, 10, 11, 19, 28, 16, 36,
 
 e3(scrambler.dist(scr, indf))
 
-os.system("huggingface-cli download qingy2024/Qwarkstar-4B-Instruct --local-dir checkpoint")
+os.system("huggingface-cli download qingy2024/Qwarkstar-4B --local-dir checkpoint")
