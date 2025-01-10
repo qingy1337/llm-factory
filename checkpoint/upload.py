@@ -29,7 +29,7 @@ def upload_checkpoint(folder_name, checkpoint_number):
     """
     Uploads the checkpoint folder to Hugging Face and deletes the folder locally.
     """
-    repo_name = f"qingy2024/Qwarkstar-4B"
+    repo_name = f"qingy2024/Qwarkstar-4B-Instruct"
     print(f"Uploading {folder_name} to Hugging Face as {repo_name}...")
 
     # Create the Hugging Face repository
