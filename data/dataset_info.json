@@ -93,7 +93,7 @@
   "magpie-r1-70b": {
     "hf_hub_url": "Magpie-Align/Magpie-Reasoning-V2-250K-CoT-Deepseek-R1-Llama-70B",
     "formatting": "sharegpt"
-  }
+  },
   "guanaco": {
     "hf_hub_url": "JosephusCheung/GuanacoDataset",
     "ms_hub_url": "AI-ModelScope/GuanacoDataset"
