@@ -180,6 +180,12 @@
           "prompt": "text"
       }
   },
+  "qwark-corpus-2": {
+      "hf_hub_url": "qingy2024/qwark-corpus-stage-2",
+      "columns": {
+          "prompt": "text"
+      }
+  },
   "wikiqa": {
     "hf_hub_url": "wiki_qa",
     "columns": {
